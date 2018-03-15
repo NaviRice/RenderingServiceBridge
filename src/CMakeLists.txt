@@ -1,7 +1,13 @@
 cmake_minimum_required(VERSION 3.9)
 
 set(CMAKE_C_STANDARD 99)
-set(RENDERING_SERVICE librenderingService.dylib)
+
+if(APPLE)
+    set(RENDERING_SERVICE librenderingService.dylib)
+elseif(UNIX)
+    set(RENDERING_SERVICE librenderingService.so)
+endif()
+
 link_directories(/usr/local/lib)
 include_directories(/usr/local/include)
 
