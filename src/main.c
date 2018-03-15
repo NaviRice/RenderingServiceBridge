@@ -1,4 +1,4 @@
-#include <printf.h>
+#include <stdio.h>
 #include <navirice/Step.h>
 #include <navirice/InitService.h>
 #include <stdlib.h>
