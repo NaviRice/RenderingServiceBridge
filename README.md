@@ -4,6 +4,7 @@
 
 The bridge between renderer **(C)** and rendering service **(C++)**
 
+## Getting Started
 [Here](https://github.com/NaviRice/Services) is the detailed instructions on compiling and running the renderer bridge
 
 ## Contributing
