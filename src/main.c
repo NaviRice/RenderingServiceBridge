@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 void new_step_callback(Step step) {
-    printf("[Step x=%f y=%f description=%s step=%s]\n", step.x, step.y, step.description, step.icon);
+    printf("[Step latitude=%f longitude=%f description=%s step=%s]\n", step.latitude, step.longitude, step.description, step.icon);
 }
 
 void rendering_service_started_callback(Step step) {
